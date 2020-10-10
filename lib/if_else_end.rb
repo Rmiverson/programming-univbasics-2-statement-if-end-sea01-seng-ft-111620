@@ -2,6 +2,8 @@
 
 current_time = Time.now
 
-current_time_s = current_time.to_s
-
-if (current_time_s /
+if (current_time.to_s / 2) == 0 
+  puts "Even!"
+else
+  puts "Odd!"
+end
